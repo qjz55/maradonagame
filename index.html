@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="ico/index.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>newsgame</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+	<audio src="music/Claude Garden.mp3" autoplay hidden id="music"></audio>
+	<!-- <div class="title">
+		<div class="titleimg"></div>
+	</div> -->
+	<!-- 开始封面 -->
+	<div class="index fl">
+		<input type="button" name="" id="next">
+	</div>
+
+
+	<!-- 介绍封面 -->
+	<div class="introduce">
+		<div class="con">
+			<div class="page box1">
+				<img src="images/Maradona/football.jpg">
+				<p>
+					<b>
+						当所有结局都已写好，所有泪水都已风干，你是否忘记了那个白衣如雪的夏天，那就是我们的整个青春</br></br>
+						而马拉多纳，就是这个青春里，全部的模样
+					</b>
+				</p>
+			</div>
+			<div class="page box2">
+				<img src="images/Maradona/hand.jpg">
+				<p>
+					<b>
+						很难再找到一个像马拉多纳一样的人，一个天使和魔鬼赋予一身的人。</br></br>
+						从少年到现在，无论在哪里，马拉多纳都意味着天才和胜利，也意味着狂放不羁和惹事生非。讨厌马拉多纳的人可能会有一万个理由，但是爱他的只需要一个理由。
+					</b>
+				</p>
+			</div>
+			<div class="page box3">
+				<img src="images/Maradona/worldcup.jpg">
+				<p>
+					<b>
+						足球是让阿根廷人忘掉一切痛苦和磨难的最好的精神家园，而马拉多纳则是上帝赐予他们的最好的礼物。</br></br>
+						蓝色阿根廷，蓝色的博卡青年，蓝色的那不勒斯共同分享了这一份礼物。</br></br>
+						为足球而流泪，94年是伤心的泪，90年是不屈的泪，而86年则是狂喜的泪。在86年后，阿斯克台球场给马拉多纳的那个世纪进球留下了一个雕像。
+					</b>
+				</p>
+			</div>
+			<div class="page box4">
+				<img src="images/Maradona/man.jpg" width="599.4px" height="810px">
+				<p>
+					<b>
+						天空一样的10号球衣，在那个晴朗的午后永远封存在了记忆深处</br></br>
+						当我们缓缓记起的时候，难免会问</br></br>
+						如果我是马拉多纳，你会成为一个什么样的马拉多纳</br></br>
+						一个时代的结束，让我们从头再来一次</br></br>
+						回顾这传奇的一生，传奇的时代</br></br>
+					</b>
+				</p>
+				<div>
+						<img src="images/transform.png" id="transform">
+				</div>
+			</div>
+		</div>
+		<div class="points">
+			<div class="color_pointer"></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+
+	<div class="main_con hide_con">
+		<div class="fl left_con">
+			<input type="button" name="left" value="" class="story">
+			<p class="rule"><b>人生无法回头，游戏也一样，在游戏中所做的一切都无法修改，所有的选择都关乎结局，望请三思</b></p>
+		</div>
+		<div class="fl right_con">
+		</div>
+		<div class="content_left">
+			<p class="l_a">
+				<b>
+					1960年10月30日</br>你出生在布宜诺斯艾利斯
+				</b>
+				</br></br>
+				<img src="images/Maradona/pica.jpg">
+			</p>
+			<p class="l_b">
+				<b>
+					1975年10月20日</br>你在阿根廷青年人与科多巴队的比赛中替补出场，完成了个人在阿根廷甲级联赛的处子秀。</br>几天后，你在联赛中打进了2个球
+				</b>
+				</br></br>
+				<img src="images/Maradona/second.jpg">
+			</p>
+			<p class="l_c">
+				<b>
+					1981年6月</br>你从阿根廷青年人转会博卡青年，在40场比赛中打进28球，并随球队获得阿根廷甲级联赛冠军。
+				</b>
+				</br></br>
+				<img src="images/Maradona/l_c.jpg">
+			</p>
+			<p class="l_d">
+				<b>
+					1982年6月18日</br>阿根廷在西班牙世界杯小组赛第二战中4-1大胜匈牙利，这是你在世界杯上取得的第一场胜利。你在比赛中梅开二度，打进了自己在世界杯上的前两粒进球。</br>7月2日，在阿根廷队同巴西队的世界杯比赛中，对手一次又一次的侵犯你，使得你很难发挥出自己的水平
+				</b>
+				</br></br>
+				<img src="images/Maradona/country.png">
+			</p>
+			<p class="l_e">
+				<b>
+					1984年7月5日</br>你以创纪录的750万美元转会费加盟意大利那不勒斯队</br>1987年5月10日</br>你率队历史上首次加冕意甲冠军</br>1988年</br>你第一次拿到意甲最佳射手金靴奖</br>1989年</br>你率领那不勒斯首次夺得欧洲联盟杯冠军，在这届杯赛中，你共打入3球，并有10次助攻。
+				</b>
+				</br></br>
+				<img src="images/Maradona/nc.png">
+			</p>
+			<p class="l_f">
+				<b>
+					你用手隐蔽地将这球打入球门，并幸运地没有被裁判发现，最终帮助球队2-1取胜，并在决赛中击败联邦德国夺取世界杯
+				</b>
+				</br></br>
+				<img src="images/Maradona/hand.gif">
+			</p>
+			<p class="l_g">
+				<b>
+					1990年</br>你带领那不勒斯第二次拿到意甲联赛冠军。同年，你带领那不勒斯5比1大胜尤文图斯，捧得意大利超级杯冠军。</br>1991年3月17日</br>在那不勒斯与巴里队的意甲比赛之后，你被查出吸食可卡因，随后被意大利足协禁赛15个月。
+				</b>
+				</br></br>
+				<img src="images/Maradona/medicne1.jpg">
+			</p>
+			<p class="l_h">
+				<b>
+					1992年9月22日</br>经过近3个月的谈判之后，你以750万美元的价格转会到西班牙的塞维利亚队。</br>同年10月4日，年近32岁的你首次代表塞维利亚出场，球队以1比2输给了毕尔巴鄂竞技。</br>你在塞维利亚呆了1年，于1993年6月12日踢了最后一场比赛，在这一年里共参赛29场，收获8个进球
+				</b>
+				</br></br>
+				<img src="images/Maradona/finally.jpg">
+			</p>
+		</div>
+		<div class="content_right">
+			<p class="r_a">
+				<b>
+					1975年8月14日，14岁的你升入了阿根廷青年人俱乐部的成年队，被列入了阿根廷甲级职业比赛的名单。创造了阿根廷国内联赛的一项纪录。你获得了职业生涯中的第一个号码是16号。
+				</b>
+				</br></br>
+				<img src="images/Maradona/first.jpeg">
+			</p>
+			<p class="r_b">
+				<b>
+					1978年</br>年仅17周岁的你以26粒进球夺得阿根廷甲级联赛最佳射手，成为阿甲联赛历史上最年轻的最佳射手。
+				</b>
+				</br></br>
+				<img src="images/Maradona/young.jpg">
+			</p>
+			<p class="r_c">
+				<b>
+					1982年7月</br>你以创足坛转会费纪录的12亿比塞塔（900万美元）的身价转投巴塞罗那</br>1982年9月4日，你上演了巴萨处子秀，球队1比2负于瓦伦西亚，你攻入唯一进球。这一年，你帮助巴塞罗那拿到了西班牙国王杯、西班牙联赛杯和西班牙超级杯。
+				</b>
+				</br></br>
+				<img src="images/Maradona/r_c.jpg">
+			</p>
+			<p class="r_d">
+				<b>
+					最终你因为抬腿踢人而被红牌罚下，在西班牙世界杯上，你共收获了两个进球，不过因为这次红牌，你付出了2年多没有入选国家队的代价。1985年5月9日，在比拉尔多的召唤下，你又重新披上了阿根廷队的球衣
+				</b>
+				</br></br>
+				<img src="images/Maradona/red.jpg">
+			</p>
+			<p class="r_e">
+				<b>
+					1986年</br>你带领阿根廷队在墨西哥世界杯1/4决赛上与死敌英格兰队相遇，在比赛中连过英格兰五名球员打入一粒载入史册的进球</br>紧接着，你获得了一次破门机会，但球高过你的头顶
+				</b>
+				</br></br>
+				<img src="images/Maradona/goal.gif">
+			</p>
+			<p class="r_f">
+				<b>
+					你没有选择用手将这球打入，1-1的比分将双方拖入点球大战，最终你们在点球大战中落败，结束了这次世界杯之旅
+				</b>
+				</br></br>
+				<img src="images/Maradona/fail.jpg">
+			</p>
+			<p class="r_g">
+				<b>
+					1990年</br>你带领那不勒斯第二次拿到意甲联赛冠军。同年，你带领那不勒斯5比1大胜尤文图斯，捧得意大利超级杯冠军。
+				</b>
+				</br></br>
+				<img src="images/Maradona/champion.jpg">
+			</p>
+			<p class="r_h">
+				<b>
+					1994年6月30日</br>在世界杯的反兴奋剂检查中，你的尿检呈阳性，国际足联决定禁止你参加所有比赛。
+				</b>
+				</br></br>
+				<img src="images/Maradona/medicne2.jpg">
+			</p>
+		</div>
+		<div class="select_con hide_con">
+			<div id="a_left" class="fl s_left">
+				<img src="images/icon/football.png" id="select_a"></br></br>
+				<p><b>进入俱乐部的青训营，走足球道路</b></p>
+			</div>
+			<div id="b_left" class="fl s_left hide_con">
+				<img src="images/icon/left.png" id="select_a"></br></br>
+				<p><b>留在阿根廷青年队俱乐部</b></p>
+			</div>
+			<div id="c_left" class="fl s_left hide_con">
+				<img src="images/icon/left.png" id="select_a"></br></br>
+				<p><b>登陆西甲，加盟巴塞罗那俱乐部</b></p>
+			</div>
+			<div id="d_left" class="fl s_left hide_con">
+				<img src="images/icon/fist.png" id="select_a"></br></br>
+				<p><b>对侵犯者予以还击，尝试用自己的技术帮助球队取胜</b></p>
+			</div>
+			<div id="e_left" class="fl s_left hide_con">
+				<img src="images/icon/hand.png" id="select_a"></br></br>
+				<p><b>冒着可能被罚下的风险用手将这球打入</b></p>
+			</div>
+			<div id="a_mid" class="fl">
+				<p class="question_a">
+					<b>
+						慢慢地你开始长大，也是时候选择你人生的道路了,是和大多数人一样读书，还是加入附近的足球俱乐部的青训营开始训练足球呢？
+					</b>
+				</p>
+				<p class="question_b hide_con">
+					<b>
+						由于你出色的技术和发挥，博卡青年俱乐部向你发来邀请，是否加盟？
+					</b>
+				</p>
+				<p class="question_c hide_con">
+					<b>
+						1982年,你在阿根廷俱乐部的亮眼表现终于引起了欧洲豪门的注意，西甲巨头巴塞罗那向你抛出了橄榄枝，是否接受？
+					</b>
+				</p>
+				<p class="question_d hide_con">
+					<b>
+						对手在这场比赛中对你频繁的侵犯让你难以发挥出自己的水平来帮助球队获胜
+					</b>
+				</p>
+				<p class="question_e hide_con">
+					<b>
+						在1-1的僵局下，面对这次很难把握的机会，是否选择违反规定用手将球打入（可能红牌下场）？
+					</b>
+				</p>
+				<p class="question_f hide_con">
+					<b>
+						1982年,你在阿根廷俱乐部的亮眼表现终于引起了欧洲豪门的注意，西甲巨头巴塞罗那向你抛出了橄榄枝，是否接受？
+					</b>
+				</p>
+			</div>
+			<div id="a_right" class="fl s_right">
+				<img src="images/icon/book.png" id="select_a"></br></br>
+				<p><b>像大多数人一样读书，工作，生活</b></p>
+			</div>
+			<div id="b_right" class="fl s_right hide_con">
+				<img src="images/icon/right.png" id="select_a"></br></br>
+				<p><b>加盟博卡青年俱乐部，去往更高的平台</b></p>
+			</div>
+			<div id="c_right" class="fl s_right hide_con">
+				<img src="images/icon/right.png" id="select_a"></br></br>
+				<p><b>留在阿根廷，继续待在博卡青年俱乐部</b></p>
+			</div>
+			<div id="d_right" class="fl s_right hide_con">
+				<img src="images/icon/turn.png" id="select_a"></br></br>
+				<p><b>不作回应，忍受对手的侵犯，并在随后因为表现不佳被教练换下</b></p>
+			</div>
+			<div id="e_right" class="fl s_right hide_con">
+				<img src="images/icon/nohand.png" id="select_a"></br></br>
+				<p><b>放弃用手打入这粒进球</b></p>
+			</div>
+		</div>
+	</div>
+
+	<div class="end_con hide_con">
+		<div class="end_main_con">
+			<p><b>游戏结束了，或者说，你作为马拉多纳的这一生结束了</b></p></br></br></br>
+			<p class="end1 hide_con"><b>你和普通人一样上学，却在恶劣的环境下开始沾染不良习惯，最后默默无闻地结束了你这一生</b></p>
+			<p class="end2 hide_con"><b>你留在阿根廷青年人队，并在几年后退役，和普通人一样找工作，生活</b></p>
+			<p class="end3 hide_con"><b>你拒绝了西甲豪门巴塞罗那的邀约，选择留在博卡青年俱乐部，并最终成为博卡青年队史传奇</b></p>
+			<p class="end0 hide_con"><b>你在博卡青年、巴塞罗那和那不勒斯都取得了成功，并与阿根廷队一起获得了两次世界杯冠军，却因为吸毒和兴奋剂不断地被卷入舆论的漩涡之中，当地时间2020年11月25日，你因心脏骤停去世，享年60岁。</b></p>
+		</div>
+		<input type="button" name="" id="end_btn" class="fl">
+	</div>
+
+
+
+	<div class="player">
+		<div class="playera">
+			<img src="images/players/p237037576.png" alt=""></br>罗纳尔多
+		</div>
+		<div class="playerb">
+			<img src="images/players/p237001625.png" alt=""></br>亨利
+		</div>
+		<div class="playerc">
+			<img src="images/players/p28130.png" alt=""></br>罗纳尔迪尼奥
+		</div>
+		<div class="playerd">
+			<img src="images/players/p1397.png" alt=""></br>齐达内
+		</div>
+		<div class="playere">
+			<img src="images/players/p237190042.png" alt=""></br>马拉多纳
+		</div>
+		<div class="playerf">
+			<img src="images/players/p1620.png" alt=""></br>佩蒂特
+		</div>
+		<div class="playerg">
+			<img src="images/players/p101001183.png" alt=""></br>卡纳瓦罗
+		</div>
+		<div class="playerh">
+			<img src="images/players/p7289.png" alt=""></br>费迪南德
+		</div>
+		<div class="playeri">
+			<img src="images/players/p237222481.png" alt=""></br>布兰科
+		</div>
+		<div class="playerj">
+			<img src="images/players/p101001040.png" alt=""></br>罗伯特·卡洛斯
+		</div>
+		<div class="playerk">
+			<img src="images/players/p237190053.png" alt=""></br>舒梅切尔
+		</div>
+		<!-- <input type="button" name="" value="" class="start_btn"> -->
+	</div>
+</body>
+</html>
